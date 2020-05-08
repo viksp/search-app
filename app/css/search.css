@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+.search-box {
+    padding: 12px 30px;
+    width: 500px;
+}
+.search-icon {
+    position: absolute;
+    top: 20px;
+    padding: 0 8px;
+}
+.search-icon img {
+    height: 16px;
+    width: 16px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 10px 0;
+    outline-style: none;
+}
+ul.search-results li.active,   ul.search-results li:hover  {
+    background-color: #FFFFDC;
+    width:100%;
+    cursor: pointer;
+  }
+  
+.search-results {
+    min-height: 150px;
+    max-height: 300px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border: 2px solid #eee;
+    list-style: none;
+    padding: 0 30px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.card-id {
+    font-weight: bold;
+}
+
+.card-text {
+    color: #333;
+}
+
+.empty-text {
+    color: #333;
+    text-align: center;
+}
