@@ -8,7 +8,7 @@
 }
 .search-icon {
     position: absolute;
-    top: 20px;
+    top: 75px;
     padding: 0 8px;
 }
 .search-icon img {
@@ -22,6 +22,7 @@
     padding: 10px 0;
     outline-style: none;
 }
+
 ul.search-results li.active,   ul.search-results li:hover  {
     background-color: #FFFFDC;
     width:100%;
@@ -29,15 +30,15 @@ ul.search-results li.active,   ul.search-results li:hover  {
   }
   
 .search-results {
-    min-height: 150px;
-    max-height: 300px;
+    height: 180px;
     overflow-x: hidden;
     overflow-y: auto;
     border: 2px solid #eee;
     list-style: none;
-    padding: 0 30px;
+    padding: 10px 30px 50px 30px;
     width: 500px;
     margin: 0 auto;
+    text-align:justify; 
 }
 
 .card-id {
@@ -51,4 +52,9 @@ ul.search-results li.active,   ul.search-results li:hover  {
 .empty-text {
     color: #333;
     text-align: center;
+}
+
+.header {
+    text-align: center;
+    border-bottom: 1px solid #eee;
 }
